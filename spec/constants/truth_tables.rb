@@ -42,8 +42,8 @@ AND_TABLE_RESULTS = [
 #    |  F  P  N
 # ---+---------
 # F  |  F  P  N
-# P  |  P  P  N
-# N  |  N  N  N
+# P  |     P  N
+# N  |        N
 DEDUPED_AND_TABLE_RESULTS = [
   [FULL_MATCH, PARTIAL_MATCH, NO_MATCH],
   [PARTIAL_MATCH, NO_MATCH],
@@ -90,8 +90,8 @@ NONE_TABLE_RESULTS = [
 #    |  F  P  N
 # ---+---------
 # F  |  N  N  N
-# P  |  N  N  N
-# N  |  N  N  F
+# P  |     N  N
+# N  |        F
 DEDUPED_NONE_TABLE_RESULTS = [
   [NO_MATCH, NO_MATCH, NO_MATCH],
   [NO_MATCH, NO_MATCH],
